@@ -1,9 +1,10 @@
-lista = [5, 2, 3]
-newList = []
+lista = []
 
-""" while True:
+while True:
      try:
         number1 = int(input("Escolha o primeiro numero"))
+        if(number1 != int): 
+          print("Erro! O número digitado precisa ser um número!")
         lista.append(number1)
         break
      except ValueError:
@@ -12,6 +13,8 @@ newList = []
 while True:
      try:
         number2 = int(input("Escolha o segundo numero"))
+        if(number2 != int): 
+          print("Erro! O número digitado precisa ser um número!")
         lista.append(number2)
         break
      except ValueError:
@@ -20,22 +23,12 @@ while True:
 while True:
      try:
         number3 = int(input("Escolha o terceiro numero"))
+        if(number3 != int): 
+          print("Erro! O número digitado precisa ser um número!")
         lista.append(number3)
         break
      except ValueError:
-        print("Erro! Digite um número inteiro válido.") """
+        print("Erro! Digite um número inteiro válido.")
     
-def ArranjarLista():
-   listaLenght = len(lista)
-  
-   for i in lista:
-     if(len(newList) == 0):
-        newList.append(i)
-
-     if(i <= newList[(len(newList) - 1)]):
-        newList.unshift(i)
-
-ArranjarLista()
-
-
-print(newList)
+lista.sort()
+print(lista)
