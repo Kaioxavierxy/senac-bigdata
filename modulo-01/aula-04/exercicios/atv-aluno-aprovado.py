@@ -1,14 +1,13 @@
 aluno_notas = {
     "matematica_1b": 6,
-    "matematica_2b": 8,
+    "matematica_2b": 1,
     "matematica_3b": 5,
-    "matematica_4b": 10,
+    "matematica_4b": 1,
 }
 
 def Aprovado(lista: list):
    n = 0
-   status = "status inicial"
-
+   
    for i in lista:
      n += lista[i]
    
