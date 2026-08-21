@@ -1,15 +1,28 @@
-# Potencia necessário é de 3 watts por metro quadrado e a cada 3 metros quadrado existe um bocal para uma lampada - Constante
-# Receber Largura e comprimento em metros
-# Retornar quantas lampadas são necessária para iluminar o comodo com os metros quadrados que foram passados.
-# Calcular o metro quadro é a multiplicação da largura e comprimento.
+#Área = 10 m²
+#Potência necessária = 10 × 3 = 30 W
+#Pela potência: 30 / 10 = 3 lâmpadas
+#Pelos bocais: 10 / 3 = 3,33, então seriam 4 bocais
+#Portanto, seriam necessárias 3 lâmpadas, pois a potência exige 3 e existem pelo menos 3 bocais disponíveis.
 
-potencia = int(input("Escolha a potencia:"))
-largura = int(input("Escolha a largura do comodo (Metros quadrados):"))
-comprimento = int(input("Escolha o comprimento do comodo (Metros quadrados):"))
+#Se o seu professor ainda não ensinou divisão inteira/arredondamento, posso fazer uma versão bem mais básica, usando somente if/else e scanf/printf, explicando cada linha.
 
-def calcular():
-  POTENCIA = 3
-  metrosQuadradosComodo = largura * comprimento
-  qtdLampadas = 0
+area = int(input("Insira a area (Metros"))
+potencia_inicial = int(input("Insira a area (Metros)"))
 
-calcular()
+WATTS = 3
+potencia_necessaria = int(area * 3)
+quantidade_lampadas = int(potencia_necessaria / area)
+quantidade_bocais = int(area / 3)
+
+print(area)
+print(potencia_necessaria)
+print(quantidade_lampadas)
+print(quantidade_bocais)
+
+#match area: 
+#    case 1:
+#      
+#    case 2:
+#        
+#    case 3:
+  
