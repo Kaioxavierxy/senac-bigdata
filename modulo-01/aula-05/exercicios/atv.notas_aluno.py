@@ -71,4 +71,4 @@ def calculadora():
     print(int(result))
 
 
-calculadora()
+#calculadora()
