@@ -29,22 +29,27 @@ mesas = [
 pedidos_cardapio = [
     {
         "nome": "Pão com ovo",
+        "descricao": "",
         "preco": 6
     },
     {
         "nome": "Misto quente",
+        "descricao": "",
         "preco": 5
     },
     {
         "nome": "Café & Pães de Queijo",
+        "descricao": "",
         "preco": 12
     },
     {
         "nome": "Panquecas",
+        "descricao": "",
         "preco": 15
     },
     {
         "nome": "Pizza",
+        "descricao": "",
         "preco": 8
     },
 ]
