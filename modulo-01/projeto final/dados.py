@@ -53,3 +53,6 @@ pedidos_cardapio = [
         "preco": 8
     },
 ]
+
+pedidos_concluidos = []
+pedidos_em_andamento = []
