@@ -1,4 +1,0 @@
-1: Ao ler um QRCODE, o Usuário é direcionado ao sistema e ele deve solicitar seu nome (Validações de nome) e escolher sua mesa (Função para listar mesas disponíveis)
-2: Mostrar uma lista de pratos com descrições, preços e tempo estimado de preparo.
-3: Usuário escolhe um prato e é inserido em um array de pedidos (número da mesa, pedido(Objeto pedido) e nome de quem realizou o pedido.
-4:  
