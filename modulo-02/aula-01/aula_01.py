@@ -43,4 +43,5 @@ serie_impares = pd.Series(numeros_impares)
 
 # Variável       # Comando      # Caminho do arquivo    # Local da consulta (nome, ou pelo indice)
 leitura_invest = pd.read_excel("base_invest.xlsx", sheet_name=1)
+
 print(leitura_invest)
