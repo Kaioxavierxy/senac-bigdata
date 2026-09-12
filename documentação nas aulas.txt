@@ -1,0 +1,3 @@
+https://medium.com/horadecodar/data-science-tips-02-como-usar-loc-e-iloc-no-pandas-fab58e214d87
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html
